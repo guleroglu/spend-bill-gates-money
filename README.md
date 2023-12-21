@@ -1,4 +1,4 @@
-# Spend Bill Gates' Money 📝
+# Spend Bill Gates' Money 💲
 
 This is a React and Redux application where you can manage Bill Gates' money. In this app, Bill Gates starts with a certain amount of money, and there are various products available for him to buy or sell. The app keeps track of the transactions in a receipt at the bottom of the page.
 
