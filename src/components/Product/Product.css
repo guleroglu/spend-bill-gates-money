@@ -1,0 +1,76 @@
+.productCard {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.productCardInfo {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 5px;
+}
+
+.productCardInfo .productImg {
+  width: 100%;
+  background-color: transparent;
+}
+
+.productCardInfo h2 {
+  background-color: transparent;
+}
+
+.productCardInfo span {
+  background-color: transparent;
+  color: #24c486;
+  font-weight: bold;
+}
+
+.productControls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  background-color: transparent;
+}
+
+.productControls input {
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 3px;
+  border: 1px solid #b2bec3;
+  color: #333;
+  appearance: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.productControls button {
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.sellButton {
+  background: linear-gradient(180deg, #f53b82, #f53b57);
+}
+
+.buyButton {
+  background: linear-gradient(180deg, #2ecc71, #1abc9c);
+}
+
+button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
